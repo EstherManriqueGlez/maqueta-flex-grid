@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+
+  box-sizing: border-box;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header .container {
+  background-color: #1BA1E2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.header .container .search {
+  height: 8em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header .container .search .topics ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.header .container .search .topics ul li {
+  margin-left: 2em;
+}
+
+.header .container .search .topics ul li a {
+  padding: 0.5em;
+  background-color: #F0A30A;
+}
+
+.header .container .search .search-form {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav.main-menu .container {
+  background-color: #FAD7AC;
+  padding: 2em 0;
+  margin: 1em auto;
+}
+
+nav.main-menu ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav.main-menu ul li {
+  margin: 0 1em;
+}
+
+main.main .container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  column-gap: 1em;
+}
+
+main.main .sections-list {
+  background-color: #FAD9D5;
+  padding: 1em;
+}
+
+main.main .sections-list ul li {
+  margin-bottom: 1em;
+}
+
+main.main .features-list {
+  display: grid;
+  grid-template-rows: auto 10em;
+  gap: 1em;
+}
+
+main.main .features-list .features {
+  background-color: #B1DDF0;
+  padding: 1em;
+}
+
+main.main .features-list .features ul li {
+  margin-bottom: 1em;
+}
+
+main.main .features-list .external-links {
+  background-color: #FFFF88;
+  padding: 1em;
+  min-height: 10em;
+}
+
+main.main .main-content .cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+  background-color: #EEEEEE;
+  padding: 1em;
+}
+
+main.main .main-content .cards-grid .card {
+  display: grid;
+  grid-template-columns: 0.75fr 1.25fr;
+  gap: 1em;
+  background-color: #CDEB8B;
+  min-height: 15em;
+  padding: 1em;
+}
+
+main.main .main-content .cards-grid .card .avatar img {
+  max-width: 100%;
+  height: auto;
+}
+
+main.main .main-content .cards-grid .card .description p {
+  line-height: 1.4;
+}
+
+main.main .main-content .cards-grid .card-form {
+  background-color: #CDEB8B;
+  min-height: 15em;
+  padding: 1em;
+}
+
+main.main .main-content .cards-grid .card-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+main.main .main-content .cards-grid .card-form form input,
+main.main .main-content .cards-grid .card-form form select {
+  width: 80%;
+  margin-bottom: 2em;
+}
+
+main.main .main-content .paragraph {
+  padding: 1em;
+  border: 2px solid black;
+  margin-top: 1em;
+}
+
+
+
+
+
+/* 
+.menu a {
+  text-decoration: none;
+  background-color: orange;
+  border: 1px solid orangered;
+  padding: 5px;
+}
+
+.sub-nav {
+  background-color: beige;
+  border: 1px solid brown;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.sub-nav .sub-nav-section {
+  margin: 0 50px;
+  padding: 5px;
+}
+
+.sub-nav div:first-child {
+  border: 1px solid blue;
+}
+
+.sub-nav div:nth-child(2) {
+  border: 1px solid red;
+}
+
+.sub-nav div:nth-child(3) {
+  border: 1px solid yellow;
+}
+
+.sub-nav div:last-child {
+  border: 1px solid purple;
+}
+
+.left {
+  border: 1px solid brown;
+  background-color: pink;
+}
+
+.cards {
+  border: 1px solid gray;
+  background-color: gainsboro;
+}
+
+.cards div {
+  border: 3px solid black;
+  background-color: rgb(157, 255, 157);
+}
+
+.right {
+  border: 1px solid cyan;
+  background-color: rgb(130, 218, 255);
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  column-gap: 10px;
+}
+
+.ext-links {
+  border: 1px solid grey;
+} */
