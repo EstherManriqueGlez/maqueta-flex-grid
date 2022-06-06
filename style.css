@@ -22,7 +22,7 @@ a {
   margin: auto;
 }
 
-.header .container {
+.header {
   background-color: #1BA1E2;
   display: flex;
   justify-content: space-between;
@@ -30,37 +30,38 @@ a {
   padding: 1em;
 }
 
-.header .container .search {
+.header .search {
   height: 8em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.header .container .search .topics ul {
+.header .search .topics ul {
   display: flex;
   list-style: none;
   justify-content: flex-end;
 }
 
-.header .container .search .topics ul li {
+.header .search .topics ul li {
   margin-left: 2em;
 }
 
-.header .container .search .topics ul li a {
+.header .search .topics ul li a {
   padding: 0.5em;
   background-color: #F0A30A;
 }
 
-.header .container .search .search-form {
+.header .search .search-form {
   display: flex;
   justify-content: flex-end;
 }
 
-nav.main-menu .container {
+nav.main-menu {
   background-color: #FAD7AC;
   padding: 2em 0;
   margin: 1em auto;
+  border: 2px solid #CF9247;
 }
 
 nav.main-menu ul {
@@ -72,7 +73,27 @@ nav.main-menu ul li {
   margin: 0 1em;
 }
 
-main.main .container {
+nav.main-menu ul li a {
+  padding: 0.5em;
+}
+
+nav.main-menu ul li:nth-child(1) a {
+  border: 1px solid #879BBA;
+}
+
+nav.main-menu ul li:nth-child(2) a {
+  border: 1px solid #BD5F57;
+}
+
+nav.main-menu ul li:nth-child(3) a {
+  border: 1px solid #E4C379;
+}
+
+nav.main-menu ul li:nth-child(4) a {
+  border: 1px solid #B08DA7;
+}
+
+main.main {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   column-gap: 1em;
@@ -81,6 +102,7 @@ main.main .container {
 main.main .sections-list {
   background-color: #FAD9D5;
   padding: 1em;
+  border: 2px solid #DCAEA7;
 }
 
 main.main .sections-list ul li {
@@ -96,6 +118,7 @@ main.main .features-list {
 main.main .features-list .features {
   background-color: #B1DDF0;
   padding: 1em;
+  border: 2px solid #2A83A9;
 }
 
 main.main .features-list .features ul li {
@@ -106,6 +129,7 @@ main.main .features-list .external-links {
   background-color: #FFFF88;
   padding: 1em;
   min-height: 10em;
+  border: 2px solid black;
 }
 
 main.main .main-content .cards-grid {
@@ -114,6 +138,7 @@ main.main .main-content .cards-grid {
   gap: 1em;
   background-color: #EEEEEE;
   padding: 1em;
+  border: 2px solid black;
 }
 
 main.main .main-content .cards-grid .card {
@@ -123,21 +148,26 @@ main.main .main-content .cards-grid .card {
   background-color: #CDEB8B;
   min-height: 15em;
   padding: 1em;
+  border: 3px solid black;
 }
 
 main.main .main-content .cards-grid .card .avatar img {
   max-width: 100%;
   height: auto;
+  border: 1px solid black;
 }
 
 main.main .main-content .cards-grid .card .description p {
   line-height: 1.4;
+  border: 1px solid black;
+  padding: 1em;
 }
 
 main.main .main-content .cards-grid .card-form {
   background-color: #CDEB8B;
   min-height: 15em;
   padding: 1em;
+  border: 3px solid black;
 }
 
 main.main .main-content .cards-grid .card-form form {
